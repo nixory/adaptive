@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Muller Regular';
+  src: url("../fonts/MulerRegular.ttf");
+}
+
+@font-face {
+  font-family: 'Muller Bold';
+  src: url("../fonts/MullerBOld.ttf");
+}
+
+body {
+  background-image: url("../img/bgc.png");
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.adaptive {
+  padding-top: 101px;
+  padding-bottom: 98px;
+  text-align: center;
+}
+
+.adaptive-title {
+  color: #6c1c02;
+  font-family: "Muller Bold";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44px;
+  margin-top: 0;
+  margin-bottom: 27px;
+}
+
+.adaptive-subtitle {
+  color: #000000;
+  font-family: "Muller Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 54px;
+}
+
+.adaptive-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 45px;
+}
+
+.adaptive-wrapper-door {
+  width: 271px;
+  height: 456px;
+  -webkit-box-shadow: 0 9px 21px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 9px 21px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  margin-right: 45px;
+  margin-bottom: 49px;
+  padding-top: 44px;
+}
+
+.adaptive-wrapper-door__img {
+  margin-bottom: 12px;
+}
+
+.adaptive-wrapper-door__text {
+  color: #393939;
+  font-family: "Muller Regular";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 44px;
+  text-align: center;
+}
+
+.adaptive-wrapper-door__text-o {
+  color: #7f7f7f;
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 44px;
+  margin-top: -27px;
+}
+
+.adaptive-wrapper-door__price {
+  color: #393939;
+  font-family: "Muller Regular";
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 1px;
+  padding: 16px 48px;
+  -webkit-box-shadow: 0 9px 21px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 9px 21px rgba(0, 0, 0, 0.15);
+  background-color: #e70000;
+  color: #ffffff;
+  font-family: "Muller Bold";
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 44px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
